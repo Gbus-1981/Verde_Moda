@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .nunito-sans-<uniquifier> {
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
@@ -14,7 +8,14 @@
     "YTLC" 500;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Nunito Sans", sans-serif;
     text-align: center;
+    cursor:;
 }
