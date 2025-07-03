@@ -22,7 +22,6 @@
 
 .producto_talla--active {
     text-decoration: none;
-    list-style: none;
     border: 2px solid #010302;
     border-radius: 10%;
     padding: 10px;
@@ -33,6 +32,29 @@
 }
 
 .producto_talla:hover {
+    cursor: pointer;
     background-color: #009c87;
     color: white;
 }
+
+.filtro-categorias {
+    max-width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+.categorias_filtro select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    appearance: none; /* Elimina estilos nativos del sistema */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+    }
