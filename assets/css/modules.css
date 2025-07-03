@@ -1,52 +1,16 @@
-.producto {
-    width: 30%;
-    border: 2px solid #ccc;
-    border-radius: 4%;
-    padding: 10px;
-    margin: 10px;
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.producto_imagen {
-    width: 100%;
+.categorias {
+    align-items: center;
 }
-
-.producto_talla {
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-    border: 2px solid #ccc;
-    border-radius: 10%;
-    padding: 10px;
-    margin: 10px;
-}
-
-.producto_talla--active {
-    text-decoration: none;
-    border: 2px solid #010302;
-    border-radius: 10%;
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
-    background-color: #009c87;
-    color: white;
-}
-
-.producto_talla:hover {
-    cursor: pointer;
-    background-color: #009c87;
-    color: white;
-}
-
-.filtro-categorias {
-    max-width: 300px;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
 
 .categorias_filtro select {
-    width: 100%;
+    display: center;
+    width: 200%;
     padding: 10px;
     font-size: 16px;
     border: 2px solid #ccc;
@@ -58,3 +22,81 @@
     background-position: right 10px center;
     background-size: 16px;
     }
+
+.categorias_boton {
+    text-decoration: none;
+    border: none;
+    border-radius: 5% 15%;
+    padding: 10px;
+    display: inline-block;
+    background-color: #010302;
+    color: white;
+}
+
+.producto {
+    display: inline-block;
+    width: 290px;
+    height: 420px;
+    border: 2px solid #ccc;
+    border-radius: 4%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.producto_talla {
+    scale: .7;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 10%;
+    padding: 8px;
+    margin: 2px;
+}
+
+.producto_imagen {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+}
+
+.producto_talla--active {
+    scale: .7;
+    text-decoration: none;
+    border: 2px solid #009c87;
+    border-radius: 10%;
+    padding: 8px;
+    margin: 2px;
+    display: inline-block;
+    background-color: #009c87;
+    color: white;
+}
+
+.producto_talla:hover {
+    cursor: pointer;
+    background-color: #009c87;
+    color: white;
+}
+
+.producto_precio {
+    font-size: 1.8rem;
+    margin: 10px;
+    color: #004f44;
+    font-weight: bold;
+}
+
+.producto_boton {
+    text-decoration: none;
+    border: none;
+    border-radius: 5% 15%;
+    padding: 10px;
+    display: inline-block;
+    background-color: #010302;
+    color: white;
+}
+
+.producto_boton:hover {
+    border: none;
+    cursor: pointer;
+    background-color: #009c87;
+    color: white;
+}
