@@ -1,0 +1,18 @@
+.hero_contenido {
+    background-color: #009c87;
+    color: white;
+    padding: 20px;
+    clip-path: ellipse(70% 50% at 50% 10%); /* Ajusta los valores para la curva */
+    height: 280px; /* Ajusta la altura según tu diseño */
+}
+
+.hero_titulo {
+    font-style: bold;
+    font-style: italic;
+    font-size: 4rem;
+}
+
+.hero_slogan {
+    font-size: 1.2rem;
+    font-style: italic;
+}
