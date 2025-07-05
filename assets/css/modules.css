@@ -1,8 +1,24 @@
 
+.hero_contenido {
+    font-family: "Great Vibes";
+    background-color: #009c87;
+    color: white;
+    padding: 20px;
+    clip-path: ellipse(70% 50% at 50% 10%); /* Ajusta los valores para la curva */
+    height: 330px; /* Ajusta la altura según tu diseño */
+}
+
+.hero_titulo {
+    margin-top: 30px;
+}
+
+.hero_slogan {
+    margin: 0px;
+    font-size: 1.5rem;
+}
 
 .catalogo {
     max-width: 1920px;
-    margin: 0 auto;
     display: grid;
     grid-template-areas: "categorias productos productos";
     grid-template-columns: 30% 35% 35%;
