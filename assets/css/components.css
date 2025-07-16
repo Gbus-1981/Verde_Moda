@@ -1,4 +1,27 @@
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.nav_logo {
+    width: 200px;
+    margin-left: .7rem;
+}
+
+.nav_menu {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 2rem;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: black;
+}
+
 .hero_contenido {
     font-family: "Great Vibes";
     background-color: #009c87;
