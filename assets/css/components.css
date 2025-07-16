@@ -4,41 +4,60 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fafafa;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.08);
 }
 
-.nav_logo {
+.nav__logo {
     width: 200px;
     margin-left: .7rem;
 }
 
-.nav_menu {
+.nav__menu {
     display: flex;
     gap: 1.5rem;
     margin-right: 2rem;
 }
 
-.nav_menu a {
+.nav__menu a {
     text-decoration: none;
     color: black;
 }
 
-.hero_contenido {
-    font-family: "Great Vibes";
-    background-color: #009c87;
-    color: white;
-    padding: 20px;
-    clip-path: ellipse(70% 50% at 50% 10%); /* Ajusta los valores para la curva */
-    height: 330px; /* Ajusta la altura según tu diseño */
+.nav__menu--active {
+    font-weight: bold;
+    color: #009c87 !important;
 }
 
-.hero_titulo {
-    font-size: 4rem;
-    margin-top: 30px;
+.article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    border-radius: 16px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.08);
+    margin-top: 2rem;
+    padding: 2rem;
 }
 
-.hero_slogan {
-    margin: 0px;
-    font-size: 1.5rem;
+.article__image {
+    text-align: right;
+}
+
+.article__image img{
+    border-radius: 16px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.08);
+}
+
+.article__content {
+    margin-left: 2rem;
+    text-align: left;
+}
+
+.article__title {
+    font-size: 1.3rem;
+}
+
+.article__text {
+    font-size: 1rem;
 }
 
 .catalogo {
