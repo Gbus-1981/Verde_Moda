@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fafafa;
+    background-color: rgb(234, 243, 234);
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.08);
 }
 
@@ -31,9 +31,6 @@
 .article {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
-    border-radius: 16px;
-    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.08);
     margin-top: 2rem;
     padding: 2rem;
 }
@@ -60,18 +57,9 @@
     font-size: 1rem;
 }
 
-.catalogo {
-    max-width: 1920px;
-    display: grid;
-    grid-template-areas: "categorias productos productos";
-    grid-template-columns: 30% 35% 35%;
-    grid-template-rows: auto;
-}
-
-
-
-.categorias {
-    grid-area: categorias;
+.gallery {
+    background-color: rgb(198, 235, 222);
+    grid-area: gallery;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -80,108 +68,33 @@
     border-radius: 10px;
 }
 
-.productos {
-    grid-area: productos;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 2rem;
-    padding: 2rem;
-    border-radius: 10px;
+.gallery__title {
+    color: #003817;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
-.categorias_filtro select {
-    margin-top: .3rem;
-    width: 100%;
-    padding: 13px;
-    font-size: 14px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    margin-bottom: 2rem;
-    }
-
-.categorias_boton {
-    text-decoration: none;
-    border: none;
-    border-radius: 5% 15%;
-    padding: 10px;
-    background-color: #010302;
-    color: white;
-}
-
-.categorias_boton:hover {
-    border: none;
-    cursor: pointer;
-    background-color: #009c87;
-    color: white;
-}
-
-.producto {
+.gallery__product {
+    background-color: rgb(234, 243, 234);
     display: inline-block;
     width: 290px;
-    height: 420px;
-    border: 2px solid #ccc;
+    height: 290px;
     border-radius: 4%;
     padding: 5px;
     margin: 5px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.08);
 }
 
-.producto_talla {
-    scale: .7;
-    text-decoration: none;
-    display: inline-block;
-    border: 2px solid #ccc;
-    border-radius: 10%;
-    padding: 8px;
-    margin: 2px;
+.gallery__description {
+    color: #009c87;
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
-.producto_imagen {
+.gallery__image {
     width: 70%;
     margin: 0;
     padding: 0;
-}
-
-.producto_talla--active {
-    scale: .7;
-    text-decoration: none;
-    border: 2px solid #009c87;
-    border-radius: 10%;
-    padding: 8px;
-    margin: 2px;
-    display: inline-block;
-    background-color: #009c87;
-    color: white;
-}
-
-.producto_talla:hover {
-    cursor: pointer;
-    background-color: #009c87;
-    color: white;
-}
-
-.producto_precio {
-    font-size: 1.8rem;
-    margin: 10px;
-    color: #004f44;
-    font-weight: bold;
-}
-
-.producto_boton {
-    text-decoration: none;
-    border: none;
-    border-radius: 5% 15%;
-    padding: 10px;
-    display: inline-block;
-    background-color: #010302;
-    color: white;
-}
-
-.producto_boton:hover {
-    border: none;
-    cursor: pointer;
-    background-color: #009c87;
-    color: white;
 }
 
 /* Formulario de Contacto */
