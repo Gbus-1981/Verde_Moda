@@ -76,8 +76,9 @@ body {
 .article {
   display: grid;
   grid-template-areas: "article article";
-  margin-top: 2rem;
-  padding: 2rem;
+  margin: 2rem auto;
+  padding: 2rem 20px;
+  max-width: 1000px;
 }
 .article__image {
   text-align: right;
@@ -105,7 +106,7 @@ body {
   .article {
     display: grid;
     grid-template-areas: "article";
-    margin-top: 2rem;
+    margin: 2rem auto;
     padding: 2rem;
   }
   .article__image {
