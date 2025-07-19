@@ -1,7 +1,12 @@
 .container {
-    width: 80%;
-    margin: 20px auto;
-    border: 1px solid #ccc;
+    width: 80% 0%;
     padding: 20px;
-    border-radius: 8px;
+    margin: 2%;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+
+    @media (min-width: 1920px) {
+        max-width: 1500px;
+        margin: 20px auto;
+    }
 }
