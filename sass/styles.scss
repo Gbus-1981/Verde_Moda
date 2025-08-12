@@ -12,6 +12,7 @@
 @use 'base/base';
 
 // 4. Layout
+@use 'layout/container';
 @use 'layout/header';
 @use 'layout/footer';
 @use 'layout/grid';
@@ -29,3 +30,4 @@
 
 // 7. Themes
 @use 'themes/default';
+

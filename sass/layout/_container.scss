@@ -1,0 +1,7 @@
+.my-container {
+    width: 80%;
+    background-color: $container-bg;
+    border: 1px solid #ccc;
+    @include spacing(20px auto, 20px);
+    @include transition(0.3s);
+}

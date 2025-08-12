@@ -1,0 +1,10 @@
+// Mixin para márgenes y paddings
+@mixin spacing($margin, $padding) {
+    margin: $margin;
+    padding: $padding;
+}
+
+// Mixin para transición
+@mixin transition($time) {
+    transition: all $time ease-in-out;
+}
